@@ -7,17 +7,17 @@ This repository tracks content for [stakk](https://stakk.ltd).
 stacks are added as JSON files. You can validate your JSON files [here](https://jsonlint.com/). If you are unsure, check out one of the existing stacks.
 
 1. add a folder with your desired username to `/data`.
-2. in `/data/${username}`, add a file `${stackname}.json`. If your stack should be named mixtapes, name the file `mixtapes.json`. You can have more than one stack if you like.
-3. fill in stack content
+2. in `/data/${username}`, add a file `${stackname}.json`. If your stack is named _mixtapes_, name the file `mixtapes.json`. You can have more than one stack if you like.
+3. add content to the file:
 
 ```json
 {
-  "title": "mixtapes",
-  "slug": "dev",
+  "title": "Nice Mixtapes",
+  "slug": "nice-mixtapes",
   "author": {
-    "name": "Felix",
-    "slug": "felix",
-    "url": "https://spoettel.dev"
+    "name": "Felix S",
+    "slug": "felix-s",
+    "url": "https://some-url.com"
   },
   "theme": {
     "background": "#FFD600",
@@ -27,10 +27,11 @@ stacks are added as JSON files. You can validate your JSON files [here](https://
 }
 ```
 
-* `title` - the name of your stack. this can be capitalized.
+* `id` a unique id. get one [here](https://www.getuniqueid.com/cuid)
+* `title` - the title of this stack
 * `slug` - the slug of this mix. **only lowercase letters and `-`, no spaces**
 * `author`
-  * `name` - your name. this can be capitalized.
+  * `name` - your name
   * `slug` - the slug of your user. **only lowercase letters and `-`, no spaces**
   * `url` - a link for your user name
 * `theme` (optional)
@@ -44,46 +45,53 @@ Items are added to the `items` array in your mix. New items are added to the bot
 
 ```json
     {
-      "createdAt": "2020-12-01T00:00:00Z",
-      "id": "ckqz4ftbt000101mpft7df8rc",
-      "slug": "velveteen",
-      "title": "Velveteen",
+      "createdAt": "2021-07-01T00:00:00Z",
+      "id": "ckqz4g09c000301mpeti04vdg",
+      "title": "Come to my Garden",
+      "slug": "come-to-my-garden",
+      "mixcloudId": "/mcmirage/come-to-my-garden/",
+      "spotifyId": "3877PFqx7sGMccAWA7tInU",
       "genres": [
-        "Glam Rock",
-        "Britpop"
+        "Baroque Pop",
+        "Psych. Pop"
       ],
-      "mixcloudId": "/mcmirage/velveteen/",
-      "spotifyId": "1Kiw8zXc8A0Mpt2TdqH7DZ",
       "tracklist": [
         {
-          "artist": "Alice Cooper",
-          "title": "Hello Hooray!",
+          "artist": "Minnie Riperton",
+          "title": "Come To My Garden",
           "at": "00:00"
+        },
+        {
+          "artist": "Hildgard Knef",
+          "title": "Insel meiner Angst",
+          "at": "03:15"
         }
       ]
-    },
+    }
 ```
 
 * `createdAt` the date this mix was created as an ISO timestamp. get one [here](https://timestampgenerator.com/)
 * `id` a unique id. get one [here](https://www.getuniqueid.com/cuid)
-* `title` the title of this item. can be capitalized
+* `title` the title of this item
 * `slug` the slug of your user. **only lowercase letters and `-`, no spaces**
-* `genres` up to **two** genres / tags
-* `mixcloudId` (optional) if this is a mixcloud mix, add the id here.
+* `genres` (optional) up to **two** genres / tags
+* `mixcloudId` (optional) if this is a mixcloud mix, add the id here
 * `spotifyId` (optional) if this item has a spotify playlist, add the id here
 * `tracklist` an array of tracks. each track looks liks this:
   * `artist`
   * `title`
   * `at` (optional) only set if this is a continuous mix
 
-## Adding a cover
+## Adding a cover to an item
 
 You can add a cover to your mix by placing an image into `./assets`. The file name **needs to match the slug of the item**. If your item is called `awesome-mix`, the filename needs to be `awesome-mix.jpg`.
 
 The file should be **square**. The minimum size is 600x600, preferably 1200x1200. Larger images are automatically optimized but please keep it reasonable as this affects build times. Ideally, you add **1200x1200** images here.
 
-## Your Urls
+## URLs
 
-Once you added a stack, it will be available on: `https://stakk.ltd/{user.slug}/{stack.slug}`  
-Individual items in the stack are available via: `https://stakk.ltd/{user.slug}/{stack.slug}/{item.slug}` (In this case, your stack will be displayed with the wanted item at the top)  
+Once you added a stack, it will be available on: `https://stakk.ltd/{user.slug}/{stack.slug}`
+
+Individual items in the stack are available via: `https://stakk.ltd/{user.slug}/{stack.slug}/{item.slug}`. In this case, the referenced item will be on top of the stack.
+
 There is a RSS feed for your stack at: `https://stakk.ltd/rss/{user.slug}/{stack.slug}`  
