@@ -1,6 +1,6 @@
 # stakk-content
 
-This repository tracks content for [stakk](https://stakk.ltd).
+This repository tracks content for [stakk](https://stakk.ltd). You are welcome to add your own stack to it by following the instructions below.
 
 ## Adding a stack
 
@@ -88,6 +88,10 @@ You can add a cover to your mix by placing an image into `./assets`. The file na
 
 The file should be **square**. The minimum size is 600x600, preferably 1200x1200. Larger images are automatically optimized but please keep it reasonable as this affects build times. Ideally, you add **1200x1200** images here.
 
+## Submitting your entry
+
+Submit a PR with your stack. Once merged, a build will start and your stack will be published.
+
 ## URLs
 
 Once you added a stack, it will be available on: `https://stakk.ltd/{user.slug}/{stack.slug}`
@@ -95,3 +99,7 @@ Once you added a stack, it will be available on: `https://stakk.ltd/{user.slug}/
 Individual items in the stack are available via: `https://stakk.ltd/{user.slug}/{stack.slug}/{item.slug}`. In this case, the referenced item will be on top of the stack.
 
 There is a RSS feed for your stack at: `https://stakk.ltd/rss/{user.slug}/{stack.slug}`  
+
+## Why a Github repo?
+
+This started as a static website I built for myself. I'm currently trying to figure out whether to turn this into a full-blown web app and this is a stop gap solution. If you have a use case for  this that is not music, please [get in touch](https://stakk.ltd/about).
