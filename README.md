@@ -96,9 +96,11 @@ Submit a PR with your stack. Once merged, a build will start and your stack will
 
 Once you added a stack, it will be available on: `https://stakk.ltd/{user.slug}/{stack.slug}`
 
+Your latest stack will also be available at: `https://stakk.ltd/{user.slug}`
+
 Individual items in the stack are available via: `https://stakk.ltd/{user.slug}/{stack.slug}/{item.slug}`. In this case, the referenced item will be on top of the stack.
 
-There is a RSS feed for your stack at: `https://stakk.ltd/rss/{user.slug}/{stack.slug}.xml`  
+There is a RSS feed for your stack at: `https://stakk.ltd/rss/{user.slug}/{stack.slug}.xml`
 
 ## Why a Github repo?
 
