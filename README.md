@@ -51,7 +51,7 @@ Items are added to the `items` array in your mix. New items are added to the bot
       "slug": "come-to-my-garden",
       "mixcloudId": "/mcmirage/come-to-my-garden/",
       "spotifyId": "3877PFqx7sGMccAWA7tInU",
-      "genres": [
+      "tags": [
         "Baroque Pop",
         "Psych. Pop"
       ],
@@ -74,7 +74,7 @@ Items are added to the `items` array in your mix. New items are added to the bot
 * `id` a unique id. get one [here](https://www.getuniqueid.com/cuid)
 * `title` the title of this item
 * `slug` the slug of your user. **only lowercase letters and `-`, no spaces**
-* `genres` (optional) up to **two** genres / tags
+* `tags` (optional) up to **two** tags
 * `mixcloudId` (optional) if this is a mixcloud mix, add the id here
 * `spotifyId` (optional) if this item has a spotify playlist, add the id here
 * `tracklist` an array of tracks. each track looks liks this:

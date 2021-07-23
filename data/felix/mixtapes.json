@@ -17,7 +17,7 @@
       "id": "ckqz4ftbt000101mpft7df8rc",
       "slug": "velveteen",
       "title": "Velveteen",
-      "genres": [
+      "tags": [
         "Glam Rock",
         "Britpop"
       ],
@@ -92,7 +92,7 @@
       "slug": "kucuk-dunya",
       "title": "Küçük Dünya",
       "mixcloudId": "/mcmirage/küçük-dünya/",
-      "genres": [
+      "tags": [
         "Anatolian Rock",
         "Psych. Rock"
       ],
@@ -164,7 +164,7 @@
       "id": "ckqz4gokh000d01mpedek8x5j",
       "slug": "hung-up-on-a-dream",
       "title": "Hung up on a Dream",
-      "genres": [
+      "tags": [
         "Psych. Rock",
         "Psych. Pop"
       ],
@@ -248,7 +248,7 @@
       "id": "ckqz4gtec000f01mp221o2i6f",
       "slug": "destination-moon",
       "title": "Destination Moon",
-      "genres": [
+      "tags": [
         "New Wave",
         "Power Pop"
       ],
@@ -317,7 +317,7 @@
       "id": "ckqz4geiz000901mp0wu707ay",
       "title": "Weekend Vampires",
       "slug": "weekend-vampires",
-      "genres": [
+      "tags": [
         "Ambient Pop",
         "Art Pop"
       ],
@@ -386,7 +386,7 @@
       "id": "ckqz4g3rl000501mp9gd4by7y",
       "slug": "nouvelle-wav",
       "title": "nouvelle.wav",
-      "genres": [
+      "tags": [
         "Film Score",
         "Chanson"
       ],
@@ -465,7 +465,7 @@
       "id": "ckqz4gjir000b01mp87n61wbg",
       "title": "Dinosaur Tears",
       "slug": "dinosaur-tears",
-      "genres": [
+      "tags": [
         "Post Punk",
         "Indie Rock"
       ],
@@ -541,7 +541,7 @@
       "title": "Come to my Garden",
       "mixcloudId": "/mcmirage/come-to-my-garden/",
       "spotifyId": "3877PFqx7sGMccAWA7tInU",
-      "genres": [
+      "tags": [
         "Baroque Pop",
         "Psych. Pop"
       ],
