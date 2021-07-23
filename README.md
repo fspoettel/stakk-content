@@ -54,8 +54,6 @@ Items are added to the `items` array in your mix. New items are added to the bot
         "https://open.spotify.com/playlist/3877PFqx7sGMccAWA7tInU",
         { "title": "Stream", "url": "https://instagram.com" }
       ],
-      "mixcloudId": "/mcmirage/come-to-my-garden/",
-      "spotifyId": "3877PFqx7sGMccAWA7tInU",
       "tags": [
         "Baroque Pop",
         "Psych. Pop"
@@ -110,4 +108,4 @@ There is a RSS feed for your stack at: `https://stakk.ltd/rss/{user.slug}/{stack
 
 ## Why a Github repo?
 
-This started as a static website I built for myself. I'm currently trying to figure out whether to turn this into a full-blown web app and this is a stop gap solution. If you have a use case for  this that is not music, please [get in touch](https://stakk.ltd/about).
+This started as a static website I built for myself. I'm currently trying to figure out whether to turn this into an app and this is a stopgap solution. If you have a use case for this that is not music, please [get in touch](https://stakk.ltd/about).
