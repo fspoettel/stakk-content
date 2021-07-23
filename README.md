@@ -4,7 +4,7 @@ This repository tracks content for [stakk](https://stakk.ltd). You are welcome t
 
 ## Adding a stack
 
-stacks are added as JSON files. You can validate your JSON files [here](https://jsonlint.com/). If you are unsure, check out one of the existing stacks.
+stacks are added as JSON files. You can validate your JSON files [here](https://jsonlint.com/). If you are unsure, check out one of the existing stacks in `/data`.
 
 1. add a folder with your desired username to `/data`.
 2. in `/data/${username}`, add a file `${stackname}.json`. If your stack is named _mixtapes_, name the file `mixtapes.json`. You can have more than one stack if you like.
