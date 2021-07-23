@@ -49,6 +49,11 @@ Items are added to the `items` array in your mix. New items are added to the bot
       "id": "ckqz4g09c000301mpeti04vdg",
       "title": "Come to my Garden",
       "slug": "come-to-my-garden",
+      "links": [
+        "https://www.mixcloud.com/mcmirage/come-to-my-garden/",
+        "https://open.spotify.com/playlist/3877PFqx7sGMccAWA7tInU",
+        { "title": "Stream", "url": "https://instagram.com" }
+      ],
       "mixcloudId": "/mcmirage/come-to-my-garden/",
       "spotifyId": "3877PFqx7sGMccAWA7tInU",
       "tags": [
@@ -75,12 +80,13 @@ Items are added to the `items` array in your mix. New items are added to the bot
 * `title` the title of this item
 * `slug` the slug of your user. **only lowercase letters and `-`, no spaces**
 * `tags` (optional) up to **two** tags
-* `mixcloudId` (optional) if this is a mixcloud mix, add the id here
-* `spotifyId` (optional) if this item has a spotify playlist, add the id here
+* `links` (optional). an array of links. a link can either be:
+  * a `url` - use this for spotify playlists or mixcloud mixes. we handle these automatically.
+  * an `object` - use this for custom links. You need to enter a `title` and `url` in this case.
 * `tracklist` an array of tracks. each track looks liks this:
   * `artist`
   * `title`
-  * `at` (optional) only set if this is a continuous mix
+  * `at` (optional) only set if this is a continuous mix, leave blank for spotify.
 
 ## Adding a cover to an item
 

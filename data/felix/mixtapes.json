@@ -21,8 +21,10 @@
         "Glam Rock",
         "Britpop"
       ],
-      "mixcloudId": "/mcmirage/velveteen/",
-      "spotifyId": "1Kiw8zXc8A0Mpt2TdqH7DZ",
+      "links": [
+        "https://www.mixcloud.com/mcmirage/velveteen/",
+        "https://open.spotify.com/playlist/1Kiw8zXc8A0Mpt2TdqH7DZ"
+      ],
       "tracklist": [
         {
           "artist": "Alice Cooper",
@@ -91,7 +93,9 @@
       "id": "ckqz4g8qb000701mph8ds349c",
       "slug": "kucuk-dunya",
       "title": "Küçük Dünya",
-      "mixcloudId": "/mcmirage/küçük-dünya/",
+      "links": [
+        "https://www.mixcloud.com/mcmirage/küçük-dünya/"
+      ],
       "tags": [
         "Anatolian Rock",
         "Psych. Rock"
@@ -168,8 +172,10 @@
         "Psych. Rock",
         "Psych. Pop"
       ],
-      "mixcloudId": "/mcmirage/hung-up-on-a-dream/",
-      "spotifyId": "22prkINKfteJgUmbrH8XZv",
+      "links": [
+        "https://www.mixcloud.com/mcmirage/hung-up-on-a-dream/",
+        "https://open.spotify.com/playlist/22prkINKfteJgUmbrH8XZv"
+      ],
       "tracklist": [
         {
           "artist": "R. Dean Taylor",
@@ -252,8 +258,10 @@
         "New Wave",
         "Power Pop"
       ],
-      "mixcloudId": "/mcmirage/destination-moon/",
-      "spotifyId": "4kwtJAeEqYAwQL26O0WSYn",
+      "links": [
+        "https://www.mixcloud.com/mcmirage/destination-moon/",
+        "https://open.spotify.com/playlist/4kwtJAeEqYAwQL26O0WSYn"
+      ],
       "tracklist": [
         {
           "artist": "Blondie",
@@ -321,8 +329,10 @@
         "Ambient Pop",
         "Art Pop"
       ],
-      "mixcloudId": "/mcmirage/weekend-vampires/",
-      "spotifyId": "7LvqpdkX0GVLQR6Fyxbh69",
+      "links": [
+        "https://www.mixcloud.com/mcmirage/weekend-vampires/",
+        "https://open.spotify.com/playlist/7LvqpdkX0GVLQR6Fyxbh69"
+      ],
       "tracklist": [
         {
           "artist": "Jenny Hval",
@@ -390,8 +400,10 @@
         "Film Score",
         "Chanson"
       ],
-      "mixcloudId": "/mcmirage/nouvellewav/",
-      "spotifyId": "6bDk7XDLEbmEf0jMjYC3Ee",
+      "links": [
+        "https://www.mixcloud.com/mcmirage/nouvellewav/",
+        "https://open.spotify.com/playlist/6bDk7XDLEbmEf0jMjYC3Ee"
+      ],
       "tracklist": [
         {
           "artist": "Henry Mancini",
@@ -469,8 +481,10 @@
         "Post Punk",
         "Indie Rock"
       ],
-      "mixcloudId": "/mcmirage/dinosaur-tears/",
-      "spotifyId": "3tbiT2KdBRU8EbsTQHmCAj",
+      "links": [
+        "https://www.mixcloud.com/mcmirage/dinosaur-tears/",
+        "https://open.spotify.com/playlist/3tbiT2KdBRU8EbsTQHmCAj"
+      ],
       "tracklist": [
         {
           "artist": "Martin Dupont",
@@ -539,8 +553,10 @@
       "id": "ckqz4g09c000301mpeti04vdg",
       "slug": "come-to-my-garden",
       "title": "Come to my Garden",
-      "mixcloudId": "/mcmirage/come-to-my-garden/",
-      "spotifyId": "3877PFqx7sGMccAWA7tInU",
+      "links": [
+        "https://www.mixcloud.com/mcmirage/come-to-my-garden/",
+        "https://open.spotify.com/playlist/3877PFqx7sGMccAWA7tInU"
+      ],
       "tags": [
         "Baroque Pop",
         "Psych. Pop"

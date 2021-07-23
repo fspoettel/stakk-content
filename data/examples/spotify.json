@@ -1,11 +1,11 @@
 {
   "author": {
-    "name": "dev",
-    "slug": "dev",
-    "url": "https://spoettel.dev"
+    "name": "examples",
+    "slug": "examples",
+    "url": "https://examples.com"
   },
-  "title": "mixtapes",
-  "slug": "dev",
+  "title": "Spotify",
+  "slug": "spotify",
   "items": [
     {
       "createdAt": "2020-12-01T00:00:00Z",
@@ -16,22 +16,21 @@
         "New Wave",
         "Power Pop"
       ],
-      "mixcloudId": "/mcmirage/test_mix_for_widget_development_1/",
+      "links": [
+        "https://open.spotify.com/playlist/3877PFqx7sGMccAWA7tInU"
+      ],
       "tracklist": [
         {
           "artist": "Blondie",
-          "title": "Hanging on the Telephone",
-          "at": "00:00"
+          "title": "Hanging on the Telephone"
         },
         {
           "artist": "B-52's",
-          "title": "52 Girls",
-          "at": "03:00"
+          "title": "52 Girls"
         },
         {
           "artist": "Talking Heads",
-          "title": "The Great Curve",
-          "at": "8:00"
+          "title": "The Great Curve"
         }
       ]
     },
@@ -44,22 +43,22 @@
         "New Wave",
         "Power Pop"
       ],
-      "mixcloudId": "/mcmirage/test_mix_for_widget_development_2/",
+      "links": [
+        "https://open.spotify.com/playlist/3877PFqx7sGMccAWA7tInU",
+        { "url": "https://instagram.com/", "title": "Stream" }
+      ],
       "tracklist": [
         {
           "artist": "Blondie",
-          "title": "Hanging on the Telephone",
-          "at": "00:00"
+          "title": "Hanging on the Telephone"
         },
         {
           "artist": "B-52's",
-          "title": "52 Girls",
-          "at": "03:00"
+          "title": "52 Girls"
         },
         {
           "artist": "Talking Heads",
-          "title": "The Great Curve",
-          "at": "8:00"
+          "title": "The Great Curve"
         }
       ]
     }

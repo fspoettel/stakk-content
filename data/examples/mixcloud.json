@@ -1,0 +1,73 @@
+{
+  "author": {
+    "name": "examples",
+    "slug": "examples",
+    "url": "https://examples.com"
+  },
+  "title": "Mixcloud",
+  "slug": "mixcloud",
+  "items": [
+    {
+      "createdAt": "2020-12-01T00:00:00Z",
+      "slug": "destination-moon",
+      "id": "ckr0vxa2q000101jh0s5r5j7i",
+      "title": "Test Mix #1",
+      "tags": [
+        "New Wave",
+        "Power Pop"
+      ],
+      "links": [
+        "https://mixcloud.com/mcmirage/test_mix_for_widget_development_2/",
+        "https://open.spotify.com/playlist/3877PFqx7sGMccAWA7tInU"
+      ],
+      "tracklist": [
+        {
+          "artist": "Blondie",
+          "title": "Hanging on the Telephone",
+          "at": "00:00"
+        },
+        {
+          "artist": "B-52's",
+          "title": "52 Girls",
+          "at": "03:00"
+        },
+        {
+          "artist": "Talking Heads",
+          "title": "The Great Curve",
+          "at": "8:00"
+        }
+      ]
+    },
+    {
+      "createdAt": "2020-12-01T00:00:00Z",
+      "id": "ckr0vxa2q000101jh0s5r5j9i",
+      "slug": "destination-moon",
+      "title": "Test Mix #2",
+      "tags": [
+        "New Wave",
+        "Power Pop"
+      ],
+      "links": [
+        "https://mixcloud.com/mcmirage/test_mix_for_widget_development_2/",
+        { "url": "https://instagram.com/", "title": "Stream" }
+      ],
+      "tracklist": [
+        {
+          "artist": "Blondie",
+          "title": "Hanging on the Telephone",
+          "at": "00:00"
+        },
+        {
+          "artist": "B-52's",
+          "title": "52 Girls",
+          "at": "03:00"
+        },
+        {
+          "artist": "Talking Heads",
+          "title": "The Great Curve",
+          "at": "8:00"
+        }
+      ]
+    }
+  ]
+}
