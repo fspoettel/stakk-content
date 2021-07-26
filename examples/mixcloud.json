@@ -9,9 +9,9 @@
   "items": [
     {
       "createdAt": "2020-12-01T00:00:00Z",
-      "slug": "destination-moon",
+      "slug": "test-mix-1",
       "id": "ckr0vxa2q000101jh0s5r5j7i",
-      "title": "Test Mix #1",
+      "imageId": "production/ckrkkkvlw000fkubeh2ob0auj",
       "tags": [
         "New Wave",
         "Power Pop"
@@ -40,9 +40,9 @@
     },
     {
       "createdAt": "2020-12-01T00:00:00Z",
-      "id": "ckr0vxa2q000101jh0s5r5j9i",
-      "slug": "destination-moon",
-      "title": "Test Mix #2",
+      "slug": "test-mix-1",
+      "id": "ckr0vxa2q000101jh0s5r5j7i",
+      "imageId": "production/ckrkkkvlw000fkubeh2ob0auj",
       "tags": [
         "New Wave",
         "Power Pop"
