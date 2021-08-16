@@ -84,7 +84,7 @@ Items are added to the `items` array in your mix. New items are added to the bot
 * `tracklist` an array of tracks. each track looks liks this:
   * `artist`
   * `title`
-  * `at` (optional) only set if this is a continuous mix, leave blank for spotify.
+  * `at` set to `00:00` for spotify
 
 ## Adding a cover to an item
 

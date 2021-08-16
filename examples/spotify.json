@@ -9,8 +9,9 @@
   "items": [
     {
       "createdAt": "2020-12-01T00:00:00Z",
-      "slug": "destination-moon",
+      "slug": "test-mix-1",
       "id": "ckr0vxa2q000101jh0s5r5j7i",
+      "imageId": "production/ckrkkkvlw000fkubeh2ob0auj",
       "title": "Test Mix #1",
       "tags": [
         "New Wave",
@@ -37,7 +38,8 @@
     {
       "createdAt": "2020-12-01T00:00:00Z",
       "id": "ckr0vxa2q000101jh0s5r5j9i",
-      "slug": "destination-moon",
+      "imageId": "production/ckrkkkvlw000fkubeh2ob0auj",
+      "slug": "test-mix-1",
       "title": "Test Mix #2",
       "tags": [
         "New Wave",

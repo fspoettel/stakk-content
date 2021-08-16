@@ -1,5 +1,6 @@
 {
-  "id": "ckrb3c8bi000101mvfxfbc3qn",
+  "id": "ckrkkg6mb00002467jspy3evg",
+  "title": "mixtapes",
   "slug": "mixtapes",
   "author": {
     "name": "felix",
@@ -7,16 +8,15 @@
     "url": "https://spoettel.dev"
   },
   "theme": {
-    "background": "#FFD600",
-    "text": "#34332B"
+    "background": "#ffd700",
+    "text": "#25292c"
   },
-  "title": "mixtapes",
   "items": [
     {
-      "createdAt": "2020-12-01T00:00:00Z",
-      "id": "ckqz4ftbt000101mpft7df8rc",
-      "slug": "velveteen",
+      "createdAt": "2020-12-01T11:50:09.672Z",
+      "id": "ckrkkj1u00000kube2zy70efs",
       "title": "Velveteen",
+      "slug": "velveteen",
       "tags": [
         "Glam Rock",
         "Britpop"
@@ -86,19 +86,20 @@
           "title": "Superstar",
           "at": "41:05"
         }
-      ]
+      ],
+      "imageId": "production/ckrkkj23y0001kube246d7ksb"
     },
     {
-      "createdAt": "2021-01-01T00:00:00Z",
-      "id": "ckqz4g8qb000701mph8ds349c",
-      "slug": "kucuk-dunya",
+      "createdAt": "2021-01-01T11:50:33.968Z",
+      "id": "ckrkkjkkw0002kubefjeufcwg",
       "title": "Küçük Dünya",
-      "links": [
-        "https://www.mixcloud.com/mcmirage/küçük-dünya/"
-      ],
+      "slug": "küçük-dünya",
       "tags": [
         "Anatolian Rock",
         "Psych. Rock"
+      ],
+      "links": [
+        "https://www.mixcloud.com/mcmirage/k%C3%BC%C3%A7%C3%BCk-d%C3%BCnya/"
       ],
       "tracklist": [
         {
@@ -161,13 +162,14 @@
           "title": "Cemalim",
           "at": "37:34"
         }
-      ]
+      ],
+      "imageId": "production/ckrkkjl300003kubeagiofy1r"
     },
     {
-      "createdAt": "2021-02-01T00:00:00Z",
-      "id": "ckqz4gokh000d01mpedek8x5j",
+      "createdAt": "2021-02-01T11:50:43.711Z",
+      "id": "ckrkkjs3j0004kubegscdffyy",
+      "title": "Hung Up On A Dream",
       "slug": "hung-up-on-a-dream",
-      "title": "Hung up on a Dream",
       "tags": [
         "Psych. Rock",
         "Psych. Pop"
@@ -247,13 +249,14 @@
           "title": "Death Of A Clown",
           "at": "41:32"
         }
-      ]
+      ],
+      "imageId": "production/ckrkkjslh0005kubehmc95tb8"
     },
     {
-      "createdAt": "2021-03-01T00:00:00Z",
-      "id": "ckqz4gtec000f01mp221o2i6f",
-      "slug": "destination-moon",
+      "createdAt": "2021-03-01T11:50:59.615Z",
+      "id": "ckrkkk4db0006kube1qei48js",
       "title": "Destination Moon",
+      "slug": "destination-moon",
       "tags": [
         "New Wave",
         "Power Pop"
@@ -318,11 +321,12 @@
           "title": "Policy Of Truth",
           "at": "39:19"
         }
-      ]
+      ],
+      "imageId": "production/ckrkkk4se0007kube4jrkfh0f"
     },
     {
-      "createdAt": "2021-04-01T00:00:00Z",
-      "id": "ckqz4geiz000901mp0wu707ay",
+      "createdAt": "2021-04-01T11:51:07.061Z",
+      "id": "ckrkkka450008kubedcuyazgv",
       "title": "Weekend Vampires",
       "slug": "weekend-vampires",
       "tags": [
@@ -389,13 +393,14 @@
           "title": "Spider And I",
           "at": "39:43"
         }
-      ]
+      ],
+      "imageId": "production/ckrkkkan10009kubeegod2vta"
     },
     {
-      "createdAt": "2021-05-01T00:00:00Z",
-      "id": "ckqz4g3rl000501mp9gd4by7y",
-      "slug": "nouvelle-wav",
-      "title": "nouvelle.wav",
+      "createdAt": "2021-05-01T11:51:16.205Z",
+      "id": "ckrkkkh65000akube3f5bhm2s",
+      "title": "Nouvelle.wav",
+      "slug": "nouvellewav",
       "tags": [
         "Film Score",
         "Chanson"
@@ -470,11 +475,12 @@
           "title": "Mysteries of Love",
           "at": "38:39"
         }
-      ]
+      ],
+      "imageId": "production/ckrkkkhnm000bkube82i887m5"
     },
     {
-      "createdAt": "2021-06-01T00:00:00Z",
-      "id": "ckqz4gjir000b01mp87n61wbg",
+      "createdAt": "2021-06-01T11:51:25.574Z",
+      "id": "ckrkkkoee000ckubed5t8bpi0",
       "title": "Dinosaur Tears",
       "slug": "dinosaur-tears",
       "tags": [
@@ -546,20 +552,21 @@
           "title": "NYC",
           "at": "42:45"
         }
-      ]
+      ],
+      "imageId": "production/ckrkkkp0t000dkubecgig2xux"
     },
     {
-      "createdAt": "2021-07-01T00:00:00Z",
-      "id": "ckqz4g09c000301mpeti04vdg",
+      "createdAt": "2021-07-01T11:51:34.187Z",
+      "id": "ckrkkkv1n000ekubeaxib9ohm",
+      "title": "Come To My Garden",
       "slug": "come-to-my-garden",
-      "title": "Come to my Garden",
-      "links": [
-        "https://www.mixcloud.com/mcmirage/come-to-my-garden/",
-        "https://open.spotify.com/playlist/3877PFqx7sGMccAWA7tInU"
-      ],
       "tags": [
         "Baroque Pop",
         "Psych. Pop"
+      ],
+      "links": [
+        "https://www.mixcloud.com/mcmirage/come-to-my-garden/",
+        "https://open.spotify.com/playlist/3877PFqx7sGMccAWA7tInU"
       ],
       "tracklist": [
         {
@@ -637,7 +644,8 @@
           "title": "La Gare",
           "at": "43:22"
         }
-      ]
+      ],
+      "imageId": "production/ckrkkkvlw000fkubeh2ob0auj"
     }
   ]
 }
