@@ -1,68 +1,77 @@
 {
   "author": {
-    "name": "examples",
-    "slug": "examples",
-    "url": "https://examples.com"
+      "name": "examples",
+      "slug": "examples",
+      "url": "https://examples.com"
   },
   "title": "Spotify",
   "slug": "spotify",
-  "items": [
-    {
-      "createdAt": "2020-12-01T00:00:00Z",
-      "slug": "test-mix-1",
-      "id": "ckr0vxa2q000101jh0s5r5j7i",
-      "imageId": "production/ckrkkkvlw000fkubeh2ob0auj",
-      "title": "Test Mix #1",
-      "tags": [
-        "New Wave",
-        "Power Pop"
-      ],
-      "links": [
-        "https://open.spotify.com/playlist/3877PFqx7sGMccAWA7tInU"
-      ],
-      "tracklist": [
-        {
-          "artist": "Blondie",
-          "title": "Hanging on the Telephone"
-        },
-        {
-          "artist": "B-52's",
-          "title": "52 Girls"
-        },
-        {
-          "artist": "Talking Heads",
-          "title": "The Great Curve"
-        }
-      ]
-    },
-    {
-      "createdAt": "2020-12-01T00:00:00Z",
-      "id": "ckr0vxa2q000101jh0s5r5j9i",
-      "imageId": "production/ckrkkkvlw000fkubeh2ob0auj",
-      "slug": "test-mix-1",
-      "title": "Test Mix #2",
-      "tags": [
-        "New Wave",
-        "Power Pop"
-      ],
-      "links": [
-        "https://open.spotify.com/playlist/3877PFqx7sGMccAWA7tInU",
-        { "url": "https://instagram.com/", "title": "Stream" }
-      ],
-      "tracklist": [
-        {
-          "artist": "Blondie",
-          "title": "Hanging on the Telephone"
-        },
-        {
-          "artist": "B-52's",
-          "title": "52 Girls"
-        },
-        {
-          "artist": "Talking Heads",
-          "title": "The Great Curve"
-        }
-      ]
-    }
-  ]
+  "data": {
+      "ckr0vxa2q000101jh0s5r5j7i": {
+          "createdAt": "2020-12-01T00:00:00Z",
+          "slug": "test-mix-1",
+          "id": "ckr0vxa2q000101jh0s5r5j7i",
+          "imageId": "production/ckrkkkvlw000fkubeh2ob0auj",
+          "title": "Test Mix #1",
+          "tags": [
+              "New Wave",
+              "Power Pop"
+          ],
+          "tracklist": [
+              {
+                  "artist": "Blondie",
+                  "title": "Hanging on the Telephone"
+              },
+              {
+                  "artist": "B-52's",
+                  "title": "52 Girls"
+              },
+              {
+                  "artist": "Talking Heads",
+                  "title": "The Great Curve"
+              }
+          ],
+          "primaryUrl": "https://open.spotify.com/playlist/3877PFqx7sGMccAWA7tInU",
+          "secondaryUrls": []
+      },
+      "ckr0vxa2q000101jh0s5r5j9i": {
+          "createdAt": "2020-12-01T00:00:00Z",
+          "id": "ckr0vxa2q000101jh0s5r5j9i",
+          "imageId": "production/ckrkkkvlw000fkubeh2ob0auj",
+          "slug": "test-mix-1",
+          "title": "Test Mix #2",
+          "tags": [
+              "New Wave",
+              "Power Pop"
+          ],
+          "tracklist": [
+              {
+                  "artist": "Blondie",
+                  "title": "Hanging on the Telephone"
+              },
+              {
+                  "artist": "B-52's",
+                  "title": "52 Girls"
+              },
+              {
+                  "artist": "Talking Heads",
+                  "title": "The Great Curve"
+              }
+          ],
+          "primaryUrl": "https://open.spotify.com/playlist/3877PFqx7sGMccAWA7tInU",
+          "secondaryUrls": [
+              {
+                  "url": "https://instagram.com/",
+                  "title": "Stream"
+              }
+          ]
+      }
+  },
+  "sortOrder": [
+      "ckr0vxa2q000101jh0s5r5j7i",
+      "ckr0vxa2q000101jh0s5r5j9i"
+  ],
+  "theme": {
+      "background": "#fcaf3e"
+  }
 }
