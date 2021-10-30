@@ -1,73 +1,53 @@
 {
   "author": {
-    "name": "examples",
-    "slug": "examples",
-    "url": "https://examples.com"
+      "name": "examples",
+      "slug": "examples",
+      "url": "https://examples.com"
   },
   "title": "Mixcloud",
   "slug": "mixcloud",
-  "items": [
-    {
-      "createdAt": "2020-12-01T00:00:00Z",
-      "slug": "test-mix-1",
-      "id": "ckr0vxa2q000101jh0s5r5j7i",
-      "imageId": "production/ckrkkkvlw000fkubeh2ob0auj",
-      "tags": [
-        "New Wave",
-        "Power Pop"
-      ],
-      "links": [
-        "https://mixcloud.com/mcmirage/test_mix_for_widget_development_2/",
-        "https://open.spotify.com/playlist/3877PFqx7sGMccAWA7tInU"
-      ],
-      "tracklist": [
-        {
-          "artist": "Blondie",
-          "title": "Hanging on the Telephone",
-          "at": "00:00"
-        },
-        {
-          "artist": "B-52's",
-          "title": "52 Girls",
-          "at": "03:00"
-        },
-        {
-          "artist": "Talking Heads",
-          "title": "The Great Curve",
-          "at": "8:00"
-        }
-      ]
-    },
-    {
-      "createdAt": "2020-12-01T00:00:00Z",
-      "slug": "test-mix-1",
-      "id": "ckr0vxa2q000101jh0s5r5j7i",
-      "imageId": "production/ckrkkkvlw000fkubeh2ob0auj",
-      "tags": [
-        "New Wave",
-        "Power Pop"
-      ],
-      "links": [
-        "https://mixcloud.com/mcmirage/test_mix_for_widget_development_2/",
-        { "url": "https://instagram.com/", "title": "Stream" }
-      ],
-      "tracklist": [
-        {
-          "artist": "Blondie",
-          "title": "Hanging on the Telephone",
-          "at": "00:00"
-        },
-        {
-          "artist": "B-52's",
-          "title": "52 Girls",
-          "at": "03:00"
-        },
-        {
-          "artist": "Talking Heads",
-          "title": "The Great Curve",
-          "at": "8:00"
-        }
-      ]
-    }
-  ]
+  "data": {
+      "ckr0vxa2q000101jh0s5r5j7i": {
+          "createdAt": "2020-12-01T00:00:00Z",
+          "slug": "test-mix-1",
+          "id": "ckr0vxa2q000101jh0s5r5j7i",
+          "imageId": "production/ckrkkkvlw000fkubeh2ob0auj",
+          "tags": [
+              "New Wave",
+              "Power Pop"
+          ],
+          "tracklist": [
+              {
+                  "artist": "Blondie",
+                  "title": "Hanging on the Telephone",
+                  "at": "00:00"
+              },
+              {
+                  "artist": "B-52's",
+                  "title": "52 Girls",
+                  "at": "03:00"
+              },
+              {
+                  "artist": "Talking Heads",
+                  "title": "The Great Curve",
+                  "at": "8:00"
+              }
+          ],
+          "primaryUrl": "https://mixcloud.com/mcmirage/test_mix_for_widget_development_2/",
+          "secondaryUrls": [
+              {
+                  "url": "https://instagram.com/",
+                  "title": "Stream"
+              }
+          ],
+          "title": "Sample Title"
+      }
+  },
+  "sortOrder": [
+      "ckr0vxa2q000101jh0s5r5j7i",
+      "ckr0vxa2q000101jh0s5r5j7i"
+  ],
+  "theme": {
+      "background": "#fce94f"
+  }
 }
